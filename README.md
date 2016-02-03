@@ -1,8 +1,17 @@
+# Fork from <https://github.com/minrk/findspark.git>
+Change the default path of homebrew.
+
 # Find spark
 
 PySpark isn't on sys.path by default, but that doesn't mean it can't be used as a regular library.
 You can address this by either symlinking pyspark into your site-packages,
 or adding pyspark to sys.path at runtime. `findspark` does the latter.
+
+
+## Install findspark
+pip install -e .
+
+## Use
 
 To initialize PySpark, just call
 
